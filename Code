@@ -1,0 +1,23 @@
+z = 0
+x = 0
+media = 0
+y = 1
+while y != 2:
+  x = float(input())
+  if x >= 0 and x <= 10:
+    z += 1
+    media = (media + x)/z 
+  else:
+    print('nota invalida') # maybe you need to channge this text
+  if z == 2:
+    print('media =', media) # maybe you need to channge this text
+    z = 0
+    y = 0
+    while y < 1 or y > 2:
+      print('novo calculo (1-sim 2-nao)') # perhaps you need to channge this text
+      y = float(input())
+      if y == 2:
+        break  
+      elif y == 1:
+        media = 0
+        z = 0  
