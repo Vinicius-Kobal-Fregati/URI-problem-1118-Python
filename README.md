@@ -1,2 +1,3 @@
 # URI-problem-1118-Python
 The solution about the problem 118 in Python
+This resolutino has 5% wrong, at the moment I can't resolve this...
